@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "rgc-video-reviews",
+    "slug": "rgc-video-reviews",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "jsEngine": "hermes",
+    "ios": {
+      "jsEngine": "hermes",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.reallygoodculture.rgcvideoreviews"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.reallygoodculture.rgcvideoreviews"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "71ac239e-e015-4bde-8fc0-ea0f8da405a2"
+      }
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "owner": "reallygoodculture"
+  }
+}
